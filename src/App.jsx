@@ -166,7 +166,7 @@ function App() {
     <div className="flex flex-col bg-[#141414] w-md min-h-[550px]">
       {/* Header */}
       <header className="text-white text-center py-2 flex justify-between items-center px-4 fixed w-full">
-        <p className="text-xl font-bold">GekkoNote</p>
+        <p className="text-xl font-bold">GeckoNote</p>
         <nav className="flex space-x-2">
           <button
             onClick={() => toggleState("pin")}

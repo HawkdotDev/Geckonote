@@ -1,8 +1,8 @@
 {
-  "name": "gekkonote",
+  "name": "geckonote",
   "version": "0.1.0",
-  "description": "GekkoNote is a floating, draggable, resizable notepad Chrome extension that lets you jot down quick notes for any website — and remembers them the next time you visit.",
-  "homepage": "https://github.com/HawkdotDev/gekkonote#readme",
+  "description": "GeckoNote is a floating, draggable, resizable notepad Chrome extension that lets you jot down quick notes for any website — and remembers them the next time you visit.",
+  "homepage": "https://github.com/HawkdotDev/geckonote#readme",
   "license": "Apache-2.0",
   "author": "HawkdotDev",
   "keywords": [
@@ -10,11 +10,11 @@
     "notes"
   ],
   "bugs": {
-    "url": "https://github.com/HawkdotDev/gekkonote/issues"
+    "url": "https://github.com/HawkdotDev/geckonote/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HawkdotDev/gekkonote.git"
+    "url": "git+https://github.com/HawkdotDev/geckonote.git"
   },
   "private": true,
   "type": "module",
