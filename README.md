@@ -1,12 +1,61 @@
-# React + Vite
+# GeckoNote
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**GeckoNote** is a floating, draggable, and resizable notepad extension for Firefox. It lets you jot down quick notes for any website and automatically remembers them the next time you visit. Designed for researchers, developers, and anyone who wants to stay focused while taking context-specific notes.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Floating sticky note that appears over any website
+- Per-site memory: notes are saved per domain
+- Automatically saves notes to browser storage
+- Fully draggable and resizable interface
+- Lightweight and fast, built with modern web technologies
+- Compatible with Firefox (Manifest V3)
 
-## Expanding the ESLint configuration
+## Getting Started (Development)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/HawkdotDev/geckonote.git
+cd geckonote
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Build the extension
+
+```bash
+npm run build
+```
+
+This will output the built files to the `dist/` directory.
+
+### 4. Load in Firefox
+
+1. Open `about:debugging` in Firefox.
+2. Click **"This Firefox"** (or **"Load Temporary Add-on"**).
+3. Select the `manifest.json` file from the `dist/` folder.
+
+## Development Workflow
+
+To run the extension in development mode with hot reloading:
+
+```bash
+npm run dev
+```
+
+Note: You will still need to manually reload the extension from `about:debugging` after each build, as Firefox does not yet support automatic reloading for extensions.
+
+## Reporting Issues
+
+If you encounter a bug or want to request a feature, please open an issue on GitHub:
+[https://github.com/HawkdotDev/geckonote/issues](https://github.com/HawkdotDev/geckonote/issues)
+
+## License
+
+This project is licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
+
